@@ -21,13 +21,11 @@ import suds
 from setuptools import setup, find_packages
 
 setup(
-    name="suds",
+    name="suds-fc",
     version=suds.__version__,
     description="Lightweight SOAP client",
-    author="Jeff Ortel",
-    author_email="jortel@redhat.com",
-    maintainer="Jeff Ortel",
-    maintainer_email="jortel@redhat.com",
+    author="Future Colors (original Jeff Ortel)",
+    author_email="info@futurecolors.ru",
     packages=find_packages(exclude=['tests']),
-    url="https://fedorahosted.org/suds",
+    url="https://github.com/futurecolors/suds",
 )
