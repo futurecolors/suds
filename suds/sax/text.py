@@ -87,7 +87,7 @@ class Text(unicode):
             s.append(' [%s]' % self.lang)
         if self.escaped:
             s.append(' <escaped>')
-        return ''.join(s)
+        return ''.join(s).__repr__()
     
     def __getstate__(self):
         state = {}
